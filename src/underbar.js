@@ -359,7 +359,6 @@
     var arr2 = array.slice(0);
     var temp;
     while (-- i > 0) {
-    //for (var i = length; 0 < i; i -= 1) {
       var j = Math.floor(Math.random() * (i + 1));
       temp = arr2[j];
       arr2[j] = arr2[i];
